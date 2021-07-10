@@ -49,4 +49,9 @@ The truth table is printed in another file, in the book it's extension is .out
 go to [https://github.com/bajpai244/nand2tetris](https://github.com/bajpai244/nand2tetris) and then myprojects/gates look into:
 1. Xor.hdl {hdl program}
 2. Xor.tst {test script}
-3. Xor.out {truth table}
+
+## How to run Simulator?
+
+Go to tools `cd tools`, 
+
+then `./HardwareSimulator.sh`, you do need to have the setup required by the book.
