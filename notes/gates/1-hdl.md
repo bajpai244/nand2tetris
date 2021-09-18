@@ -17,7 +17,7 @@ file format: .hdl
 It descrbes the interface of the chip, meaning its:
 1. name
 2. Its input names
-3. Its outpur names
+3. Its output names
 
 ### Parts:
 
@@ -33,7 +33,7 @@ Now we have created an internal pin { with unlimited fan-out } which can drive a
 
 And(a=nota,b=b,out=w1)
 
-Unlimited Fan-Out = Meaning an output can drive as many gates as it wants, there is not limit on how many gates can use the output of a single gate.
+**Unlimited Fan-Out = Meaning an output can drive as many gates as it wants, there is not limit on how many gates can use the output of a single gate.**
 
 
 ## Test Script
