@@ -1,0 +1,14 @@
+/**
+ * And gate:
+ * out = 1 if (a=1,b=1), 
+   out = 0 if( a=0,b=0 || a!=b )
+ */
+
+CHIP And {
+    IN a,b;
+    OUT out;
+
+    PARTS:
+    Nand(a=a,b=b,out=c0);
+    Nand(a=c0,b=c0,out=out);
+}
